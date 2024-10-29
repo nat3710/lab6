@@ -1,0 +1,125 @@
+div{ 
+    width: 250px;
+    height: 100px;
+    background-color: crimson;
+    color: white;
+    border: 2px solid-black;
+    display: inline-block;
+}
+
+
+
+.static-box{
+    background-color: blue;
+    position: static;
+    top: 100px
+}
+
+.relative-box{
+    background-color: red;
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+
+
+.container {
+    position: relative;
+    height: 100px;
+    margin: 20px 0;
+  }
+
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.fixed-box{
+    background-color:black;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+}
+
+.content {
+    height: 1000px;
+  }
+
+  .background-image {
+    background-image: url ('https://cdn.shopify.com/s/files/1/1034/3311/articles/Pink-lilies-90636691_3014x2002_c89314b1-79e8-4c6f-9fdd-75667b96c230_3014x2002.jpeg?v=1534478028')
+    ;
+    background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  }
+
+  .background-image-repeat {
+    background-image: url('https://cdn.shopify.com/s/files/1/1034/3311/articles/Pink-lilies-90636691_3014x2002_c89314b1-79e8-4c6f-9fdd-75667b96c230_3014x2002.jpeg?v=1534478028')
+    ;
+    background-repeat: repeat;
+  height: 200px;
+  }
+
+  .box1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+  }
+
+  .box2 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-align-center {
+    display: flex;
+    align-items: center;
+    height: 200px;
+  }
+
+  flex-align-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 150px;
+  }
+  
+  .flex-grow {
+    display: flex;
+  }
+  .flex-grow div:nth-child(2) {
+    flex-grow: 2;
+  }
